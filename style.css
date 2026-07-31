@@ -1,0 +1,37 @@
+body{
+    background-color: #30362F;
+}
+#bckg{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    background-color: #B83700;
+}
+#title{
+    color: #000000;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Arimo", sans-serif;
+}
+.subtitle{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+}
+.text1{
+    color: #E9AFA3;
+    margin: 10px;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+}
+.legenda{
+    color: #E9AFA3;
+    text-align: center;
+}
+img{
+    display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
