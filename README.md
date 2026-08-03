@@ -8,3 +8,7 @@ Meu portifólio feito com HTML e CSS
 - Inseri a minha foto
 - Coloquei cores no site
 - Nota para mim: Mudar as cores do site pq ta muito feio
+## 03/08/2026
+- Adicionei uma tabela dos meu horários no 3° bimestre
+    Eu planejo atualizar essa tabela no próximo bimestre também.
+- Comentei o meu código

@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site</title>
     <link rel="stylesheet" href="style.css">
-    
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div>
         <div class="bckg">
+            <!-- Introdução -->
             <h1 id="title">Meu Portifólio (WIP)</h1>
             <h2 class="subtitle">Introdução</h2>
+            <!-- Texto da Introdução -->
             <p class="text1">
             Olá leitor, esse projeto é uma tentativa de fazer um portifólio utilizando apenas
              HTML,CSS,e Javascript com o VSCode. Eu decidi fazer isso como desafio próprio e talvez até melhore 
@@ -20,12 +21,15 @@
             </p>
              <p class="text1">Não nota muito as cores, eu sei que ta feio, eu vou concertar isso depois</p>
         </div>
+
         <div class="bckg">
+            <!-- Página Sobre Mim -->
             <h2 class="subtitle">Sobre Mim</h2>
-            <div>
-                <img src="images/eu.jpeg" alt="Minha Foto">
-                <p class="legenda">(Uma foto de mim)</p>
-            </div>
+                <div>
+                    <!-- Minha foto -->
+                    <img src="images/eu.jpeg" alt="Minha Foto">
+                    <p class="legenda">(Uma foto de mim)</p>
+                </div>
             <p class="text1">
              - Meu nome é Henrique Lotz Brun e estudo no curso de Ciência da Computação na UniFil.
             </p>
@@ -50,5 +54,46 @@
             </p>    
         </div>
     </div>
+    <div class="bckg">
+        <h2 class="subtitle">Meus horários de aula neste bimestre</h2>
+        <!-- Meus horários de aula -->
+         <table>
+            <thead>
+                <tr>
+                    <th class="header_tabela">Horários</th>
+                    <th class="header_tabela">Segunda</th>
+                    <th class="header_tabela">Terça</th>
+                    <th class="header_tabela">Quarta</th>
+                    <th class="header_tabela">Quinta</th>
+                    <th class="header_tabela">Sexta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- Primeira Aula -->
+                    <th class="horario">19:00</th>
+                    <th class="aulas">Álgebra</th>
+                    <th class="aulas">Sistemas Digitais</th>
+                    <th class="aulas">Análise e projeto de algorítimos</th>
+                    <th class="aulas">Álgebra</th>
+                    <th class="aulas" rowspan="3">Atividades Digitais</th>
+                </tr>
+                <tr>
+                    <th class="horario">20:30</th>
+                    <th id="intervalo" colspan="4">Intervalo</th>
+                </tr>
+                <tr>
+                    <!-- Segunda aula -->
+                    <th class="horario">20:45</th>
+                    <th class="aulas">Sistemas Digitais</th>
+                    <th class="aulas">Programação</th>
+                    <th class="aulas">Projeto Interdiciplinar</th>
+                    <th class="aulas">Programação</th>
+                </tr>
+            </tbody>
+         </table>
+         <p class="legenda">Esses são as minhas aulas no 3° bimestre</p>
+    </div>
+
 </body>
 </html>
