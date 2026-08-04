@@ -1,69 +1,93 @@
-body{
-    background-color: #30362F;
-}
-/* Fundo dos textos */
-.bckg{
-    margin-left: 1%;
-    margin-right: 1%;
-    background-color: #f35613e4;
+body {
+    background-color: #2f3239;
 }
 
-#title{
+/* Fundo dos textos */
+
+.bckg {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #d1cfcf;
+
+}
+.container{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+#title {
     color: #000000;
     font-size: 70px;
     text-align: center;
     font-family: "Arimo", sans-serif;
 }
-.subtitle{
+
+.subtitle {
     text-align: center;
     font-size: 35px;
     font-family: "Inter", sans-serif;
 }
-.text1{
-    color: #dbd9d9;
+
+.subtitle2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.text1 {
+    color: #000000;
     margin: 10px;
     font-size: 17px;
     font-family: "Inter", sans-serif;
     margin: 10px;
 }
 
-.legenda{
+.legenda {
     color: #000000;
     text-align: center;
 }
+
 /* Foto de minha pessoa */
-img{
+img {
     display: block;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
 /* Tabela de horários */
-table{
+table {
     margin-left: auto;
     margin-right: auto;
     border: 2px, solid, black;
     border-collapse: collapse;
 }
-tr, th{
+
+tr,
+th {
     padding: 6px;
     font-size: 25px;
     border: 2px, solid, black;
 }
-.horario{
+
+.horario {
     background-color: rgb(21, 146, 146);
 }
-.aulas{
+
+.aulas {
     font-family: "Inter", sans-serif;
     background-color: #878383;
 }
-#intervalo{
+
+#intervalo {
     padding: 2px;
     font-family: "Inter", sans-serif;
     background-color: #50594e;
 }
-.header_tabela{
+
+.header_tabela {
     font-family: "Inter", sans-serif;
     font-weight: 1000;
     background-color: rgb(25, 175, 175);
