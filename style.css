@@ -66,6 +66,12 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.imageFnaf{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .placeholder{
     width: 200px;
 
