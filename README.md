@@ -17,3 +17,7 @@ Meu portifólio feito com HTML e CSS
 - Adicionei a lista de projetos
 - adicionei o meu projeto de Fnaf em Portugol
 - Coloquei links para minhas coisas
+## 06/08/2026
+- Adicionei uma nova página no site, a página de relatórios
+- Adicionei javascript (tortura aprender isso)
+- só isso mesmo, demoro pq tive que aprender do 0.

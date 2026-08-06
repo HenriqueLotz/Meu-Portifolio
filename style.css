@@ -16,6 +16,12 @@ body {
     margin: 10px;
 }
 
+.card{
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px
+}
+/* textos */
 #title {
     color: #000000;
     font-size: 70px;
@@ -37,23 +43,31 @@ body {
 
 .text1 {
     color: #000000;
-    margin: 10px;
     font-size: 17px;
     font-family: "Inter", sans-serif;
     margin: 10px;
 }
-
+.textReport{
+    color: #000000;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+    align-self: center;
+}
 .legenda {
     color: #000000;
     text-align: center;
 }
 
-/* Foto de minha pessoa */
-img {
+/* Imagens*/
+#myImg{
     display: block;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+.placeholder{
+    width: 200px;
 
 }
 
@@ -65,8 +79,7 @@ table {
     border-collapse: collapse;
 }
 
-tr,
-th {
+tr,th {
     padding: 6px;
     font-size: 25px;
     border: 2px, solid, black;
@@ -92,3 +105,8 @@ th {
     font-weight: 1000;
     background-color: rgb(25, 175, 175);
 }
+#button1{
+    margin-left: 45%;
+}
+
+
