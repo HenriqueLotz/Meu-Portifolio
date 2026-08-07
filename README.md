@@ -1,5 +1,5 @@
 # Meu Portifólio
-Meu portifólio feito com HTML e CSS
+Meu portifólio feito com HTML,CSS e javascript
 
 # Histórico de mudanças:
 ## 31/07/2026:
@@ -21,3 +21,7 @@ Meu portifólio feito com HTML e CSS
 - Adicionei uma nova página no site, a página de relatórios
 - Adicionei javascript (tortura aprender isso)
 - só isso mesmo, demoro pq tive que aprender do 0.
+## 07/08/2026
+- Adicionei mais relatórios na página
+- criei uma pasta para os scripts
+- criei uma pasta para as imagens do relatório
